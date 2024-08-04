@@ -28,4 +28,4 @@ jobs:
             with:
                 folder: build
                 branch: prod
-                token: ${{secrets.GH_TOKEN}}   
+                token: ${{ secrets.GH_TOKEN }}   
