@@ -3,7 +3,9 @@ name: React deploy via Github Actions
 on:
   push:
     branches: ['main']
-
+    
+  workflow_dispatch:
+  
 jobs: 
     deploy-react:
         runs-on: ubuntu@latest
